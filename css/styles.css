@@ -1,0 +1,209 @@
+/* DISCLAIMER:
+    * This website was divided into different sections, each one of them identified with an ID.
+    * Class selectors created by me were written using camel case, so they could be easily told apart from the bootstrap classes.
+*/
+
+/*********************************************************************/
+
+body{
+  font-family: 'Montserrat';
+  text-align:center;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-weight: 900;
+  line-height:1.5;
+}
+
+
+/*********************************************************************/
+
+#title{
+  background-color: #ff4c68;
+  text-align: left;
+  color:#fff;
+  margin:0;
+}
+
+#features{
+  background-color: #fff;
+  margin:0;
+  position:relative;
+  z-index: 1;
+}
+
+#testimonials{
+  background-color: #ef8172;
+}
+
+#press{
+  background-color: #ef8172;
+  padding-bottom:3%;
+}
+
+#cta{
+  background-color: #ff4c68;
+}
+
+#footer{
+  background-color: #fff;
+  padding:100px 0;
+}
+
+
+/*********************************************************************/
+/* All sections */
+.downloadButton{
+  margin: 5% 3%;
+}
+
+/* Title Section */
+.navbar{
+  padding-bottom:4.5rem;
+}
+
+.navbar-brand{
+  font-family: 'Ubuntu';
+  font-size:2.5rem;
+  font-weight:bold;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size:1.2rem;
+  font-weight:100;
+}
+
+#title h1{
+  font-size: 3.5em;
+  padding:30px 0;
+}
+
+#title .container-fluid{
+  padding:3% 15%;
+}
+
+.titleMainImage{
+  transform: rotate(18deg);
+  width:300px;
+  position:absolute;
+  left:58%;
+}
+
+/* Features Section */
+#features h3{
+  font-size: 1.2rem;
+}
+
+#features p{
+  color:#8f8f8f;
+}
+
+#features .container-fluid{
+  margin-bottom:70px;
+  padding:3% 15%;
+}
+
+.featuresColumn{
+  padding:100px 50px 0 50px;
+}
+
+#features i{
+  color:#ef8172;
+  margin-bottom:20px;
+}
+#features i:hover{
+  color:#ff4c68;
+}
+
+/* Testimonials Section */
+.carousel-item{
+  padding:7% 15%;
+}
+
+#testimonials h2{
+  font-size: 2.5em;
+  color:#fff;
+}
+
+#testimonials em{
+  color:#fff;
+}
+
+#testimonials img{
+  width:10%;
+  border-radius:100%;
+  margin:20px;
+}
+
+/* Press Section */
+#press img{
+  width:15%;
+  margin:20px 20px 50px;
+}
+
+/* Pricing Section */
+#pricing h2{
+  margin-top:100px;
+  font-size: 2.5em;
+}
+
+#pricing p{
+  color:#8f8f8f;
+}
+
+#pricing .row{
+  margin:7% 3%;
+}
+
+.card{
+  margin:0 30px;
+}
+
+.pricingPrice{
+  font-size: 3.5em;
+}
+
+#pricing ul{
+  height:76px;
+}
+
+#pricing button{
+  margin-top:40px;
+}
+
+/* Cta Section */
+#cta h2{
+  font-size: 2.5em;
+  padding-top:50px;
+  color:#fff;
+  margin:0 25%;
+}
+
+/* Footer Section */
+#footer p{
+  color:#8f8f8f;
+}
+
+.footer-icon{
+  margin:12px;
+}
+
+
+/*********************************************************************/
+
+@media (max-width:991.5px){
+  #title{
+    text-align: center;
+  }
+  .titleMainImage{
+    transform: rotate(0);
+    position:static;
+  }
+  #features{
+    position:static;
+  }
+}
